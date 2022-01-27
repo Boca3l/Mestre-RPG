@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mestre</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <a href="index.html" class="cabecalho-menu-logo"><img src="img/logo-p.png" class="logo-p" alt=""> MESTRE - RPG</a>
+        <nav class="cabecalho-menu">
+            <a href="index.html" class="cabecalho-menu-item">HOME</a>
+            <a href="" class="cabecalho-menu-item">SAIBA MAIS</a>
+            <!--a href="" class="cabecalho-menu-item">LOGIN/CADASTRO</!a-->
+        </nav>
+    </header>
+
+    <main class="cadastro">
+
+        <h1 id="titulo">CADASTRO DE USUÁRIO</h1>
+
+        <form action="" class="cUsuario">
+
+            <div class="container">
+                <fieldset class="grupo" id="divid">
+                    <div class="campo">
+                        <label for="nome">NOME</label>
+                        <input type="text" name="nome" id="nome" class="txt">
+                    </div>
+                    <div class="campo">
+                        <label for="sobrenome">SOBRENOME</label>
+                        <input type="text" name="sobrenome" id="sobrenome" class="txt">
+                    </div>
+                </fieldset>
+                <div class="campo" id="divemail">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" class="txt">
+                </div>
+                <div class="campo">
+                    <label for="tipoplayer">VOCE DESEJA SER?</label>
+                    <label ><input type="radio" name="tipoplayer" value="player" checked> PLAYER</label>
+                    <label for=""><input type="radio" name="tipoplayer" value="mestre"> MESTRE</label>
+                    <label for=""><input type="radio" name="tipoplayer" value="playmestre"> PLAYER+MESTRE</label>
+                </div>
+                <div class="campo">
+                    <label for="idade">IDADE</label>
+                    <input type="number" name="idade" id="idade" class="txt">
+                </div>
+                <div class="campo">
+                    <label for="">DESCRIÇÃO (LORE):</label>
+                    <textarea name="" id="" rows="8"></textarea>
+                </div>
+                <input type="button" value="CRIAR" class="conteudo-principal-escrito-btn">
+            </div>
+
+        </form>
+    </main>
+
+    <footer class="rodape">
+        a
+    </footer>
+    
+</body>
+</html>

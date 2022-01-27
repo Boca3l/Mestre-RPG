@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Megrim&family=Overlock+SC&display=swap');
+
+:root{
+    --azul: #071c35;
+    --gradiente: #093164;
+    --laranja: #e9162b;
+    --branco: #FFF2E7;
+    --btn: #1e60af;
+
+    --mestre: 'Megrim', cursive;
+    --destaque: 'Overlock SC', cursive;
+    --texto: 'Maven Pro', sans-serif;
+}
+
+.cadastro{
+    text-align: center;
+    margin: 35px;
+}
+
+#titulo{
+    font: lighter 2.5em var(--destaque);
+}
+
+.cUsuario{
+    width: 60vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+fieldset.grupo{
+    display: flex;
+    border: none;
+    margin: 0;
+    padding: 0px;
+}
+
+fieldset.grupo .campo{
+    float: left;
+}
+
+.campo{
+    margin: 1em;
+    text-align: left;
+    width: 100%;
+}
+
+.campo label{
+    font: normal 1.2em var(--texto);
+    color: black;
+    display: block;
+}
+
+input.txt{
+    border: none;
+    height: 1.8em;
+    margin: 5px 0px;
+    width: 100%;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+textarea{
+    border: none;
+    margin: 5px 0px;
+    width: 100%;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-principal-escrito-btn{
+    min-width: 200px;
+}
+
+.rodape{
+    background-color: #FFF2E7;
+    height: 300px;
+}

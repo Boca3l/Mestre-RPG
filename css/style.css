@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Megrim&family=Overlock+SC&display=swap');
+
+:root{
+    --azul: #071c35;
+    --gradiente: #093164;
+    --laranja: #e9162b;
+    --branco: #FFF2E7;
+    --btn: #1e60af;
+
+    --mestre: 'Megrim', cursive;
+    --destaque: 'Overlock SC', cursive;
+    --texto: 'Maven Pro', sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to left, var(--azul),var(--gradiente));
+    color: var(--branco);
+    font: normal 1em Arial;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5vh;
+}
+
+.cabecalho-menu-logo{
+    font: 2em var(--mestre);
+    color: var(--branco);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-p{
+    border-radius: 50%;
+    height: 80px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 2em;
+}
+
+.cabecalho-menu-item{
+    font: 1.2em var(--texto);
+    color: var(--branco);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+
+}
+.cabecalho-menu-item:hover{
+    font: 1.2em var(--texto);
+    color: var(--laranja);
+}
+
+.conteudo{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 5em;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.conteudo-principal-escrito-titulo{
+    font: 5em var(--mestre);
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+.conteudo-principal-escrito-subtitulo{
+    font: lighter 2.2em var(--destaque);
+    color: var(--laranja);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+
+}
+.conteudo-principal-escrito-texto{
+    font: 1.8em var(--texto);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+
+}
+.conteudo-principal-escrito-btn{
+    padding: 20px;
+    max-width: 200px;
+    background-color: var(--gradiente);
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    font: normal 1.5em var(--texto);
+    color: var(--branco);
+}
+.conteudo-principal-escrito-btn:hover{
+    background-color: var(--btn);
+    color: lightgray;
+}
+.conteudo-principal-escrito-btn:active{
+    background-color: var(--laranja);
+    color: lightgray;
+}
+
+.logo-g{
+    border-radius: 50%;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+.rodape{
+    background-color: #FFF2E7;
+    height: 300px;
+}
+
+
