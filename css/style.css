@@ -76,6 +76,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap-reverse;
 }
 
 .conteudo-principal-escrito{
@@ -87,6 +88,7 @@ body{
 .conteudo-principal-escrito-titulo{
     font: 5em var(--mestre);
     text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.25);
+    
 }
 .conteudo-principal-escrito-subtitulo{
     font: lighter 2.2em var(--destaque);
@@ -99,6 +101,7 @@ body{
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
 
 }
+
 .conteudo-principal-escrito-btn{
     padding: 20px;
     max-width: 200px;
@@ -107,6 +110,7 @@ body{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
     font: normal 1.5em var(--texto);
     color: var(--branco);
+    margin: auto;
 }
 .conteudo-principal-escrito-btn:hover{
     background-color: var(--btn);
@@ -119,6 +123,7 @@ body{
 
 .logo-g{
     border-radius: 50%;
+    margin: auto;
 }
 
 .container{
