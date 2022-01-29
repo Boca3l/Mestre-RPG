@@ -1,9 +1,9 @@
 # Mestre - RPG 🖖 💻
 ## Projeto pessoal
 
- A proposta do __Mestre RPG__ é ser um controlador de RPG simples para mestre e players controlarem suas fichas e histórias sem perder a intereatividade de jogar pessoalmente com dados, mapas e estatuetas.
+ A proposta do __Mestre RPG__ é ser um controlador de RPG simples para mestre e players controlarem suas fichas e histórias sem perder a interatividade de jogar pessoalmente com dados, mapas e estatuetas.
  
- [Acesse o layout aqui](https://boca3l.github.io/Mestre-RPG/)
+ [Acesse o layout aqui](https://boca3l.github.io/mestre-rpg/)
  
  __*Site em desenvolvimento*__
 
