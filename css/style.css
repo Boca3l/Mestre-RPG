@@ -130,14 +130,12 @@ body{
     border-radius: 50%;
 }
 
-.container{
-    width: 50%;
-    margin: auto;
-}
+
 
 .rodape{
     background-color: #FFF2E7;
     height: 300px;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 

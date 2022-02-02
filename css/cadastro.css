@@ -24,29 +24,29 @@
 }
 
 .cUsuario{
-    width: 60vw;
+    min-width: 50vw;
+    max-width: 70vw;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 20px;
-    padding: 20px;
     margin: auto;
     margin-top: 30px;
+    padding: 10px;
+}
+
+.container{
+    margin: auto;
+    padding: 2em;
 }
 
 fieldset.grupo{
     display: flex;
     border: none;
-    margin: 0;
-    padding: 0px;
-}
-
-fieldset.grupo .campo{
-    float: left;
 }
 
 .campo{
-    margin: 1em;
     text-align: left;
     width: 100%;
+    margin-bottom: 1em;
 }
 
 .campo label{
@@ -65,6 +65,13 @@ input.txt{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
+#nome,#sobrenome{
+    width: 95%;
+}
+#sobrenome,.sobrenome{
+    margin-left: 5%;
+}
+
 textarea{
     border: none;
     margin: 5px 0px;
@@ -76,9 +83,4 @@ textarea{
 
 .conteudo-principal-escrito-btn{
     min-width: 200px;
-}
-
-.rodape{
-    background-color: #FFF2E7;
-    height: 300px;
 }
