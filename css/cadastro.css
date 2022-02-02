@@ -60,9 +60,10 @@ input.txt{
     height: 1.8em;
     margin: 5px 0px;
     width: 100%;
-    padding: 3px;
+    padding: 5px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    font: normal 1em var(--texto);
 }
 
 #nome,#sobrenome{
@@ -76,9 +77,10 @@ textarea{
     border: none;
     margin: 5px 0px;
     width: 100%;
-    padding: 3px;
+    padding: 5px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    font: normal 1em var(--texto);
 }
 
 .conteudo-principal-escrito-btn{
